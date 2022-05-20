@@ -1,0 +1,135 @@
+@media (max-width: 1920px){
+    .cabecalho .titulo{
+        font-size: 50px;
+    }
+    body::before{
+        position: absolute;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        opacity: 0.600;
+    }
+
+    main{
+        padding: 0 5px;
+        justify-content: start;
+    }
+    .imagem .panda{
+        position: relative;
+        top: 207px;       
+    }  
+     .botao .bnt-1{
+        position: relative;
+        
+    }
+    
+  
+}
+
+@media (max-width: 750px){
+    body::before{
+        position: absolute;
+        background-image: url('../imagens/fire-55.gif');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        opacity: 0.600;
+    }
+
+    main{
+        padding: 0 5px;
+        justify-content: start;
+    }
+
+    .cabecalho .titulo{
+        font-size: 46px;
+    }
+    .botao .bnt-1{
+        position: relative;
+        
+    }
+   
+}
+
+
+
+@media(max-width: 460px){
+    .cabecalho .titulo{
+        font-size: 40px;
+    }
+    .bnt-1{
+        padding: auto;
+        
+    }
+    .imagem .panda{
+        position: relative;
+        top: 212px;       
+    }  
+}
+
+@media(max-width: 412px){
+    .cabecalho .titulo{
+        font-size: 40px;
+    }
+    .bnt-1{
+        position: relative;
+        
+    }
+    .imagem .panda{
+        position: relative;
+        top: 210px;       
+    }  
+}
+
+@media(max-width: 380px){
+    .cabecalho .titulo{
+        font-size: 30px;
+    }
+    .botao .bnt-1{
+        position: relative;
+        top: 119px;
+    }
+    .imagem .panda{
+        position: relative;
+        top: 204px;       
+    }  
+}
+
+@media(max-width: 320px){
+    .cabecalho .titulo{
+        font-size: 30px;
+    }
+    .bnt-1{
+        position: relative;
+    }
+    .imagem .panda{
+        position: relative;
+        top: 204px;       
+    }  
+}
+@media(max-width: 288px){
+    .cabecalho .titulo{
+        font-size: 20px;
+    }
+    .bnt-1{
+        position: relative;
+    }
+    .imagem .panda{
+        position: relative;
+        top: 205px;
+    }
+}
+@media(max-width: 227px){
+    .cabecalho .titulo{
+        font-size: 20px;
+
+    }
+        
+    .bnt-1{
+        position: relative;
+    }
+    .imagem .panda{
+        position: relative;
+        top: 203px;
+    }
+}

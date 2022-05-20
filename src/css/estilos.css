@@ -1,0 +1,97 @@
+body{
+    font-family: 'guevara', Courier, monospace;
+    background: rgb(0, 0, 0);
+    
+}
+body::before{
+    content: '';
+    background-image: url("../imagens/1cYrMYF.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.600;
+    
+}
+main{
+    
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+header{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+
+}
+header .titulo{
+    z-index: 1 ;
+    display: flex;
+    justify-content: center;
+}
+ header .titulo{
+    z-index: 1;
+    color:rgb(240, 48, 0);
+    text-transform: uppercase;
+    font-size: 50px;
+    line-height: 102px;
+    -webkit-text-stroke: 2px rgba(255, 155, 41, 0.959);
+
+}
+
+header .botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.botao .bnt-1{
+    top: 110px;
+    height: 7vh;
+    position: relative;
+}
+
+.botao  .bnt-1{
+    text-decoration: none;
+    color: rgb(231, 29, 15);
+    display: inline-block;
+    padding:  10px 80px;
+    margin: 120px 540px;
+    border:1px solid rgb(227, 245, 62);
+    border-radius: 10px;
+       
+       
+}
+
+.botao .bnt-1{
+    transition: .5s;
+}
+
+.botao .bnt-1:hover{
+    background-image: url('../imagens/fire-51.gif');
+    
+   
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+
+    animation-direction: alternate;
+    transform: scale(1.07);
+   
+}
+.imagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imagem .panda{    
+    bottom: 45px;
+    height: 20vh;
+    position: relative;
+}
+
+
